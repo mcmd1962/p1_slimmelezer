@@ -1,0 +1,14 @@
+# vim: set filetype=yaml tabstop=2 shiftwidth=2 softtabstop=2 number expandtab:
+
+slimmelezer:
+  host: 10.0.0.48
+  port: 23
+  timesync_period: 10
+  skip_count: 4
+
+multicast:
+  address: 224.7.2.2
+  port: 47002
+  socket_timeout: 2.5
+  TTL: 1
+
